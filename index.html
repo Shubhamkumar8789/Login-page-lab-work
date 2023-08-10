@@ -1,1 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body bgcolor="#ffe0b3">
+    <style>
+        table{
+            font-size: 25px;
+        }
+    </style>
 
+    <h1 align="center"><u>User Login</u></h1>
+    <table border="5px" bgcolor="#ff9900" align="center" width="700px" height="600px" padding="50px">
+        <tr>
+            <td><b>First Name :</b>
+            <input type="text" name="firstName" placeholder="Enter Your First Name"></td>
+            
+                <td><b><label> Last Name :</b></label>
+                <input type="text" name="LastName" placeholder="Enter Your Last Name"></td>
+        </tr>
+        <tr>
+<td><b><label>Emaid Id :</label></b>
+    <input type="email" name="email" placeholder="Enter Your Email"></td>
+    <td><b><label>Phone Number</label></b>
+        <input type="tel" name="mobile" placeholder="Enter Your Mobile Number">
+    </td>
+        </tr>
+        <tr>
+            <td>
+                <b><label>DOB :</label></b>
+                <input type="date" placeholder="Enter Your Date of Birth" >
+            </td>
+            <td>
+                <b><label>Gender :</label></b>
+                <input type="radio" id="gender" name="gender" value="male"/> Male    
+ 
+<input type="radio" id="gender" name="gender" value="female"/> Female <br/> 
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center">
+                <input type="checkbox">By Choosing this I accept the given terms and condtions<br>
+                <input type="submit" value="Login"><br>
+                <a href="#">Already have an Account</a>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
